@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Practice15.TextField" parent="Theme.Practice15">
+        <item name="android:textColor">@color/text_field_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Theme.Practice15" parent="@style/Theme.Leanback">
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

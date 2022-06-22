@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practice15</string>
+    <string name="email">E-mail:</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="date">Date: 14.10.19</string>
+    <string name="distance">Distance: 1,4 km</string>
+    <string name="time">Minutes: 03:03 m</string>
+    <string name="fill_all_field">Please, fill in all fields</string>
+</resources>

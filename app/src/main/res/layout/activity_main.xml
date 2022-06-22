@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/bg_map"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/route_line"
+        android:layout_width="420dp"
+        android:layout_height="229dp"
+        android:src="@drawable/route"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="139dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="9dp"
+        android:paddingStart="38dp"
+        android:paddingBottom="21dp"
+        android:paddingEnd="38dp">
+        <include
+            android:id="@+id/first_route_item"
+            layout="@layout/route_item"
+            android:layout_height="109dp"
+            android:layout_width="109dp"/>
+        <include layout="@layout/selected_route_item"
+            android:id="@+id/first_route_item_selected"
+            android:visibility="gone"
+            android:layout_height="109dp"
+            android:layout_width="109dp"/>
+        <include layout="@layout/route_item"
+            android:id="@+id/route_item_2"
+            android:layout_height="109dp"
+            android:layout_width="109dp"
+            android:layout_marginStart="20dp"/>
+        <include layout="@layout/route_item"
+            android:id="@+id/route_item_3"
+            android:layout_height="109dp"
+            android:layout_width="109dp"
+            android:layout_marginStart="20dp"/>
+        <include layout="@layout/route_item"
+            android:id="@+id/route_item_4"
+            android:layout_height="109dp"
+            android:layout_width="109dp"
+            android:layout_marginStart="20dp"/>
+        <include layout="@layout/route_item"
+            android:id="@+id/route_item_5"
+            android:layout_height="109dp"
+            android:layout_width="109dp"
+            android:layout_marginStart="20dp"/>
+        <include layout="@layout/route_item"
+            android:id="@+id/route_item_6"
+            android:layout_height="109dp"
+            android:layout_width="109dp"
+            android:layout_marginStart="20dp"/>
+        <include
+            android:id="@+id/sign_out_button"
+            layout="@layout/sign_out_button"
+            android:layout_height="109dp"
+            android:layout_width="109dp"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

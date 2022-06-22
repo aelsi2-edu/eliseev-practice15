@@ -1,0 +1,10 @@
+<resources>
+    <color name="button_border_color">#95989A</color>
+    <color name="background_very_semitransparent">#556E9CD2</color>
+    <color name="background_semitransparent">#996E9CD2</color>
+    <color name="background">#6E9CD2</color>
+    <color name="text_field_color">#AAAAAA</color>
+    <color name="password_field_color">#9D9D9D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
